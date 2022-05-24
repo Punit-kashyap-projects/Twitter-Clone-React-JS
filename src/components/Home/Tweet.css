@@ -1,0 +1,96 @@
+.tweet{
+    /* border: 2px solid yellow; */
+    border-bottom: 1px solid rgb(61, 61, 61);
+    border-top: 1px solid rgb(61, 61, 61);
+    margin-bottom:0.5px;
+    padding-top: 5px;
+    width: 100%;
+}
+.white {
+    color: whitesmoke;
+}
+
+.white a{
+    text-decoration: none;
+    color: white;
+}
+
+.white a:hover{
+    text-decoration: 1.5px solid underline;
+}
+
+.grey{
+    color: grey;
+}
+
+.tweetInfo{
+    /* border: 2px solid cyan; */
+    display: flex;
+}
+
+
+.userProfile img{
+    height: 50px;
+    border-radius: 50%;
+    /* border: 2px solid yellow; */
+}
+
+.userInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+
+.verifiedImg{
+    height: 20px;
+    padding: 0 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.reactions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: grey;
+    /* border: 2px solid yellow; */
+    margin-top: 20px;
+}
+
+.reactOpt{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.reactOpt button, span{
+    cursor: pointer;
+}
+
+.reactOpt:hover{
+    background-color: rgb(30, 27, 27);
+}
+
+.reactOpt button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.reactOpt button img{
+    height: 20px;
+    padding: 0 5px;
+    display: block;
+    filter: invert(1);
+}
+
+.reactOpt span{
+    padding: 5px 10px;
+}

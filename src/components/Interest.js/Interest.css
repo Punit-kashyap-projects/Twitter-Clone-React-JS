@@ -1,0 +1,97 @@
+#searchBar {
+  width: 27%;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  /* margin-top: 0px; */
+  margin: 5px 20px;
+  position: fixed;
+  top: 0;
+  right: 5%;
+  height: 45px;
+}
+
+#searchBar input {
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  /* border: 2px solid red; */
+  border: none;
+  width: 70%;
+}
+
+#searchBar img {
+  height: 20px;
+  /* border: 2px solid cyan; */
+  border: none;
+  padding: 0;
+  padding-right: 40px;
+  filter: invert(1);
+}
+
+#happeningCont {
+  width: 85%;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  /* height: 100%; */
+  margin: 0 30px;
+  margin-top: 70px;
+}
+
+#happeningCont h1{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.showMore{
+    color: dodgerblue;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+    border:none;
+    cursor: pointer;
+}
+
+.showMore:hover{
+    text-decoration: 1.5px solid dodgerblue underline;
+}
+
+#interestCont{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+#followSuggestions{
+  width: 85%;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+
+#followSuggestions h1{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.verified{
+  height: 20px;
+  padding: 0 10px;
+}

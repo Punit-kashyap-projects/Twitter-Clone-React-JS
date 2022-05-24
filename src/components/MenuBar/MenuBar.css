@@ -1,0 +1,57 @@
+#MenuBar{
+    width: 150px;
+    padding: 0 10px;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+
+}
+
+.menuOpt img{
+    height: 28px;
+    float: right;
+}
+
+.menuOpt {
+    padding: 12px;
+    width: 20%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60%;
+}
+
+.menuOpt:hover{
+    transition: .3s;
+    background-color: rgb(45, 42, 42);
+}
+
+#tweetBtn{
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+    float: right;
+    display: block;
+    border:none;
+    cursor: pointer;
+    width: 105%;
+}
+
+#tweetBtn img{
+    height: 80px;
+    float: right;
+    padding: 0;
+}
+
+#profileBtn img{
+    height: 40px;
+    border: 1px solid cyan;
+    border-radius: 50%;
+}
+
+.invert{
+    filter: invert(1)
+}

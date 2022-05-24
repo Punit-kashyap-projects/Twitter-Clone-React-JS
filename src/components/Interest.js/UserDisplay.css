@@ -1,0 +1,36 @@
+.RandomUser{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.profilePic{
+    /* border: 2px solid greenyellow; */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.RandomUserInfo{
+    padding: 5px 10px;
+    /* border: 2px solid cyan; */
+    width: 50%;
+}
+
+.followBtn{
+    width: 25%;
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.followBtn:hover{
+    cursor: pointer;
+    transition: .3s;
+    opacity: 0.8;
+}

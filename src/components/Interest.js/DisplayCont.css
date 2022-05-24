@@ -1,0 +1,24 @@
+.displayCont{
+    /* border: 2px solid red; */
+    display: flex;
+    /* height: 100%; */
+    padding: 15px;
+    width: 100%;
+}
+
+.displayInfoCont p{
+    font-size: 14px;
+}
+
+.displayCont img{
+    width: 30%;
+    height: 60px;
+    padding: 10px;
+    /* border: 2px solid yellow; */
+}
+
+.displayCont:hover{
+    transition: .5s;
+    cursor: pointer;
+    background-color: black;
+}
